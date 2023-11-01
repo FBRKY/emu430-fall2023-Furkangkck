@@ -1,43 +1,52 @@
 ---
 title: "Assignment 1"
+editor: 
+  markdown: 
+    wrap: 72
 ---
 
-# Assignment 1
-
-```{r}
-1 + 1
-```
-
-My first assignment has two parts.
+My first assignment has three parts.
 
 ## (a)
 
-This presentation will trace the evolution of a report from a mostly text-free dashboard to a text-heavy R markdown report with dynamic text blocks. While the report is provided to the largest financial institutions in the U.S., its target audience primarily consists of compliance experts and lawyers.
+This presentation will trace the evolution of a report from a mostly
+text-free dashboard to a text-heavy R markdown report with dynamic text
+blocks. While the report is provided to the largest financial
+institutions in the U.S., its target audience primarily consists of
+compliance experts and lawyers.
 
-The interface between data products and decision-makers is often the most challenging aspect of a project. Frequently, what your audience truly needs is words! This presentation will help you recognize when you need more narrative and will provide some useful technical tips, including how to use existing word templates and how to use the whisker:: and glue:: functions to help you generate text dynamically.
+The interface between data products and decision-makers is often the
+most challenging aspect of a project. Frequently, what your audience
+truly needs is words! This presentation will help you recognize when you
+need more narrative and will provide some useful technical tips,
+including how to use existing word templates and how to use the
+whisker:: and glue:: functions to help you generate text dynamically.
 
 ## (b)
+
 In R, Reversing an Array:
 
 ```{r}
-vec <- c(1, 2, 3, 4, 5)
+vec <- c(4, 2, 3, 8, 5)
 reversed_vec <- rev(vec)
 
 ```
-This R code reverses the vector "vec" using the rev function.
-In Python, Reversing an Array:
 
+This R code reverses the vector "vec" using the rev function. In Python,
+Reversing an Array:
 
+vec = \[1, 2, 3, 4, 5\]
+reversed_vec = vec\[::-1\]
 
-vec = [1, 2, 3, 4, 5]
-reversed_vec = vec[::-1]
+In Python, this operation is performed using the language feature
+vec\[::-1\], which reverses the list vec.
 
-In Python, this operation is performed using the language feature vec[::-1], which reverses the list vec.
+In this example, in R, we use the rev function, while in Python, we
+directly use the language feature \[::-1\] to achieve the same result.
+This showcases the different array manipulation methods between R and
+Python.
 
-In this example, in R, we use the rev function, while in Python, we directly use the language feature [::-1] to achieve the same result. This showcases the different array manipulation methods between R and Python.
-
-There is another example:
-Using a loop in R:
+There is another example: Using a loop in R:
 
 ```{r}
 for (i in 1:10) {
@@ -45,16 +54,16 @@ for (i in 1:10) {
 }
 
 ```
-This R code prints numbers from 1 to 10.
-Using a loop in Python:
+
+This R code prints numbers from 1 to 10. Using a loop in Python:
 
 for i in range(1, 11):
-    print(i)
+print(i)
 
-This Python code also prints numbers from 1 to 10. The range function in Python is used to generate numbers within a specific range.
+This Python code also prints numbers from 1 to 10. The range function in
+Python is used to generate numbers within a specific range.
 
-And the last example:
-Using a conditional statement in R:
+And the last example: Using a conditional statement in R:
 
 ```{r}
 x <- 10
@@ -67,22 +76,20 @@ if (x > 0) {
 }
 
 ```
-This R code checks a condition based on the value of the variable x and prints the output accordingly.
-But,
-Using a conditional statement in Python:
 
+This R code checks a condition based on the value of the variable x and
+prints the output accordingly. But, Using a conditional statement in
+Python:
 
 x = 10
-if x > 0:
-    print("x is positive")
+if x \> 0:
+print("x is positive")
 elif x == 0:
-    print("x is zero")
+print("x is zero")
 else:
-    print("x is negative")
+print("x is negative")
 
+This Python code also checks a condition based on the value of the
+variable x and prints the output accordingly.
 
-
-This Python code also checks a condition based on the value of the variable x and prints the output accordingly.
-
-
-
+## (c)
