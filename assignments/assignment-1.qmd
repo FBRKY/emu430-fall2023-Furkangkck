@@ -12,4 +12,8 @@ My first assignment has two parts.
 
 ## (a)
 
+This presentation will trace the evolution of a report from a mostly text-free dashboard to a text-heavy R markdown report with dynamic text blocks. While the report is provided to the largest financial institutions in the U.S., its target audience primarily consists of compliance experts and lawyers.
+
+The interface between data products and decision-makers is often the most challenging aspect of a project. Frequently, what your audience truly needs is words! This presentation will help you recognize when you need more narrative and will provide some useful technical tips, including how to use existing word templates and how to use the whisker:: and glue:: functions to help you generate text dynamically.
+
 ## (b)
