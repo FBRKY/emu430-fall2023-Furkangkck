@@ -27,6 +27,8 @@ reversed_vec <- rev(vec)
 This R code reverses the vector "vec" using the rev function.
 In Python, Reversing an Array:
 
+
+
 vec = [1, 2, 3, 4, 5]
 reversed_vec = vec[::-1]
 
